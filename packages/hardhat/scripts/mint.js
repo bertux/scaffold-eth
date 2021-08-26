@@ -7,7 +7,7 @@ const R = require("ramda");
 const ipfsAPI = require('ipfs-http-client');
 const ipfs = ipfsAPI({host: 'ipfs.infura.io', port: '5001', protocol: 'https' })
 
-const delayMS = 8000 //sometimes Fuse needs a 8000ms break lol 😅
+const delayMS = 10000 //sometimes Fuse needs a 8000ms break lol 😅
 
 const main = async () => {
 
